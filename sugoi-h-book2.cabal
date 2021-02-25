@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 822cc257678316650b06adc7a7271269818d603361cea22d8667f32103cdb058
+-- hash: 499edc660ff82b0f3b841321c33483491f8f47f380a7d013711656630de76ff8
 
 name:           sugoi-h-book2
 version:        0.1.0.0
@@ -29,6 +29,7 @@ library
   exposed-modules:
       Ch1
       Ch3
+      Ch4
       Lib
   other-modules:
       Paths_sugoi_h_book2
