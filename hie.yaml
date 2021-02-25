@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "sugoi-h-book2:lib"
+
+    - path: "./app/Main.hs"
+      component: "sugoi-h-book2:exe:sugoi-h-book2-exe"
+
+    - path: "./app/Paths_sugoi_h_book2.hs"
+      component: "sugoi-h-book2:exe:sugoi-h-book2-exe"
+
+    - path: "./test"
+      component: "sugoi-h-book2:test:sugoi-h-book2-test"
