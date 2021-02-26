@@ -36,6 +36,7 @@ library
       Geometry.Cuboid
       Geometry.Sphere
       Ch7
+      Ch8
       Lib
   other-modules:
       Paths_sugoi_h_book2
