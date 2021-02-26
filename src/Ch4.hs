@@ -1,3 +1,5 @@
+module Ch4 where
+
 maximum' [] = error "cannot use empty list."
 maximum' [x] = x
 maximum' (x : xs) = max x $ maximum' xs

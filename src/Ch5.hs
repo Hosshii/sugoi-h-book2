@@ -1,3 +1,5 @@
+module Ch5 where
+
 dividedByTen = (/ 10)
 
 -- applyTwice :: (t -> t) -> t -> t
