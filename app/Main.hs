@@ -1,6 +1,7 @@
 module Main where
 
 import Ch1 (doubleMe)
+import Ch10
 import Ch3
 import Ch7
 import Ch8
@@ -46,4 +47,5 @@ main = do
   -- print $ threeCoins (mkStdGen 10)
   -- gen' <- getStdGen
   -- askForNumber gen'
-  copy
+  -- copy
+  searchRoad
