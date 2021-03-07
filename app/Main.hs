@@ -48,4 +48,5 @@ main = do
   -- gen' <- getStdGen
   -- askForNumber gen'
   -- copy
-  searchRoad
+  -- searchRoad
+  putStrLn "hello"

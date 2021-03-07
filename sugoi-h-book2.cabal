@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f5f16cfa820e977aaa8abcbe7902008b04ccdfcbab2d155b176d1cf2d9640ba6
+-- hash: 19434f21972e23dbb496572d5142bc5645a3c9ae9b6d222ca35372c03690e0e7
 
 name:           sugoi-h-book2
 version:        0.1.0.0
@@ -32,6 +32,7 @@ library
       Ch11
       Ch12
       Ch13
+      Ch14
       Ch3
       Ch4
       Ch5
@@ -52,6 +53,7 @@ library
     , bytestring
     , containers
     , directory
+    , mtl
     , random
   default-language: Haskell2010
 
@@ -67,6 +69,7 @@ executable sugoi-h-book2-exe
     , bytestring
     , containers
     , directory
+    , mtl
     , random
     , sugoi-h-book2
   default-language: Haskell2010
@@ -84,6 +87,7 @@ test-suite sugoi-h-book2-test
     , bytestring
     , containers
     , directory
+    , mtl
     , random
     , sugoi-h-book2
   default-language: Haskell2010
